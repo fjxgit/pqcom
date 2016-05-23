@@ -14,11 +14,11 @@ setup(
     description='A cross platform serial tool',
 
     # The project's main homepage.
-    url='https://github.com/xiongyihui/pqcom',
+    url='https://github.com/fjxgit/pqcom',
 
     # Author details
-    author='Yihui Xiong',
-    author_email='xiongyihui3@gmail.com',
+    author='Jianxin Fung',
+    author_email='fengjianxin@gmail.com',
 
     # Choose your license
     license='MIT',
@@ -56,7 +56,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'pqcom': ['img/*.svg', 'img/pqcom-logo.png', 'img/pqcom-logo-expanded.png'],
+        'pqcom': ['img/*.svg', 'img/*.png', 'img/pqcom-logo.png', 'img/pqcom-logo-expanded.png'],
     },
 
     # To provide executable scripts, use entry points in preference to the

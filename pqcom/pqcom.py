@@ -121,7 +121,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.output_history = []
         self.repeater = Repeater()
 
-        self.setWindowIcon(QIcon(resource_path('img/pqcom-logo.png')))
+        self.setWindowIcon(QIcon(resource_path('img/com.png')))
 
         self.aboutDialog = AboutDialog(self)
 
